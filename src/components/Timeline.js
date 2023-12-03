@@ -10,7 +10,7 @@ import amz_goodreadsImage from '../amazon_goodreads.png';
 const Timeline = () => {
     const timelineData = [
         {
-            year: '2020',
+            year: '2023',
             image: amz_goodreadsImage,
             title: 'Amazon Goodreads',
             subtitle: 'SDE Intern',
@@ -24,20 +24,19 @@ const Timeline = () => {
           description: 'Related Coursework :- Analysis of Algorithm, Database Systems',
         },
         {
-          year: '2022',
+          year: '2020',
           image: jioImage,
           title: 'RELIANCE JIO INFOTECH',
           subtitle: 'SOFTWARE DEVELOPER',
           description: 'Regulated and examined Jio Meet, a video conferencing application works on multiple platforms such as Windows,Mac, IOS, Android and WebNet for bug fixes.\n Developed some key features for JioMeet app for android and fixed bugs brought by testers.',
         },
         {
-          year: '2021',
+          year: '2016',
           image: rgitImage,
           title: 'RAJIV GANDHI INSTITUTE OF TECHNOLOGY',
           subtitle: 'BACHELORS IN COMPUTER SCIENCE - GPA (3.85/4)',
           description: 'Related Coursework :- Data Structures, Algorithms, Artificial Intelligence, Machine Learning, Internet of Things, Operating Systems, Database Management, Software Engineering and Compiler Construction.',
         },
-    // ... more entries
   ];
 
   return (
