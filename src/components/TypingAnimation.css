@@ -1,0 +1,20 @@
+@keyframes blink {
+    50% { opacity: 0; }
+  }
+  
+  .cursor {
+    display: inline-block;
+    margin-left: 2px; /* or any small space */
+    width: 10px; /* width of the cursor */
+    background-color: currentColor; /* match text color */
+    animation: blink 1s step-end infinite;
+  }
+  
+  .cursor--hidden {
+    display: none;
+  }
+  
+  .typing h2::after {
+    content: '|';
+  }
+  

@@ -1,0 +1,63 @@
+.skills-container {
+    background-color: #029a8d; /* Your chosen background color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates a three-column grid layout */
+    gap: 20px;
+    margin-bottom: 50px; /* Adds space between columns */
+  }
+  
+  .skills-column {
+    background: rgba(255, 255, 255, 0.5); /* Slight white tint for readability */
+    border-radius: 10px; /* Optional: Rounds the corners of the skill columns */
+    padding: 20px;
+
+  }
+  .skills-container h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .skills-column h3 {
+    margin-top: 0;
+    text-decoration: underline;
+    text-align: center; /* Underlines the category title */
+  }
+  
+  ul {
+    list-style: none; /* Removes the default list styling */
+    padding-left: 0;
+    text-align: center; /* Removes the default padding */
+  }
+  
+  li {
+    display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-between; /* Space out the skill name and stars */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 0.5em;
+    
+  }
+
+  .skill-name {
+    /* ... existing styles ... */
+    flex-grow: 1; /* Ensure it takes up the available space */
+  text-align: left; /* Allows bullet points to appear */
+  }
+
+  .skill-rating {
+    display: inline-block; /* This will hold the star ratings */
+    margin-left: 10px; /* Spacing between skill name and stars */
+    font-size: 1.2em;
+    color: #FFD700; /* Makes the stars a bit larger */
+  }
+  
+  @media (max-width: 768px) {
+    .skills-grid {
+      grid-template-columns: 1fr; /* Stacks the columns on top of each other on smaller screens */
+    }
+  }
+  

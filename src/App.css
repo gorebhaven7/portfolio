@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.main-container {
+  font-family: open-sans;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  width: 100vw; /* Full width of the viewport */
+  background-image: url('./banner.jpeg'); /* Adjust the path as necessary */
+  background-size: cover;
+  background-position: center;
+  text-align: center; /* Center text for smaller divs or content */
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0,0.5); /* Adjust the color and opacity to your liking */
+  backdrop-filter: blur(0.5px); /* Adjust the blur amount as needed */
+  z-index: 1; /* Ensure it's above the background but below the content */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Ensure the .typing class covers the necessary area if not already full width */
+.typing {
+  width: 100%;
+}
+
+/* Existing CSS for the blinking cursor */
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.typing h2::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+}
+.main-container {
+  /* ... existing styles ... */
+  color: white; /* Set text color to white */
+}
+
+.content {
+  max-width: 600px; /* Set to desired max width */
+  margin: 0 auto; /* Center the content */
+  z-index: 2;
+}
+
+.logo {
+  height: 50px; /* Set the height of the logos */
+  margin: 0 10px; /* Add some horizontal spacing around logos */
+}
+
+.line {
+  width: 100%; /* Full width of the content */
+  border: 0;
+  height: 1px;
+  background-color: white; /* Line color */
+  margin: 20px 0; /* Add some vertical spacing around the lines */
+}
+
+h1 {
+  font-size: 3.0em; /* Bigger text for the portfolio title */
+  margin: 10px 0; /* Adjust spacing as needed */
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  font-size: 1.5em; /* Ensure this is smaller than h1 */
+  margin: 5px 0; /* Adjust spacing as needed */
+  letter-spacing: 0.2em;
+}
+
+/* ... existing CSS for the blinking cursor and .typing class ... */
+
+.typing h2 {
+  font-size: 1.5em; /* Adjust to make sure it's smaller than h2 with the name */
+}
+.skills {
+  background-color: lightgreen; /* Your chosen background color */
+  padding: 20px;
+  text-align: center;
 }
