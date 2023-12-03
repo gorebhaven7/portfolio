@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c28ecbd0.css",
+    "main.js": "/portfolio/static/js/main.f02c1cb0.js",
+    "static/js/787.2dcca737.chunk.js": "/portfolio/static/js/787.2dcca737.chunk.js",
+    "static/media/banner.jpeg": "/portfolio/static/media/banner.a1bc50239bf0ea117443.jpeg",
+    "static/media/QueryLanguage.png": "/portfolio/static/media/QueryLanguage.751b0493cbf5cdc498f5.png",
+    "static/media/amazon_goodreads.png": "/portfolio/static/media/amazon_goodreads.a952938ac7d3f78545fe.png",
+    "static/media/YelpAngular.jpeg": "/portfolio/static/media/YelpAngular.51a728c8f3970330855b.jpeg",
+    "static/media/jio.jpeg": "/portfolio/static/media/jio.35125d020d885077eff1.jpeg",
+    "static/media/usc.jpeg": "/portfolio/static/media/usc.6a5db1cca17e0a594c1a.jpeg",
+    "static/media/rgit.jpeg": "/portfolio/static/media/rgit.d18767767e927e275e5d.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.c28ecbd0.css.map": "/portfolio/static/css/main.c28ecbd0.css.map",
+    "main.f02c1cb0.js.map": "/portfolio/static/js/main.f02c1cb0.js.map",
+    "787.2dcca737.chunk.js.map": "/portfolio/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c28ecbd0.css",
+    "static/js/main.f02c1cb0.js"
+  ]
+}
