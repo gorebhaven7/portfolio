@@ -60,3 +60,9 @@
   .detail{
     font-size: 14px;
   }
+  .project-card-back button{
+    border: 1px solid;
+    background-color: #fff;
+    color: #029a8d;
+    border-radius: 5px;
+  }

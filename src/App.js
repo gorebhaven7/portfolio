@@ -14,6 +14,8 @@ import QueryLanguage from './QueryLanguage.png';
 import DWTCompression from './ DWTCompression.jpeg';
 import EbayFlask from './EbayFlask.png';
 import EbayAndroid from './EbayAndroid.png';
+import DriverDrowsiness from './DriverDrowsiness.jpeg';
+import CureFeed from './curefeed.png';
 
 const projects = [
   {
@@ -23,6 +25,7 @@ const projects = [
     title: 'Ebay Search Android App',
     techUsed: 'Tech Used: Android, Node.js, Volley library',
     description: 'Developed an Android application with Node.js backend. Integrated Ebay API for item searches and display based on user queries.',
+    link: 'https://github.com/gorebhaven7/eBaySearch'
   },
   {
     id: 2,
@@ -31,6 +34,7 @@ const projects = [
     title: 'Ebay Search Using Flask',
     techUsed: 'Tech Used: Flask, Express JS, Python',
     description: 'Created a Flask-based backend mimicking the functionality of the Ebay Android app. Focused on efficient API communication for item retrieval and display.',
+    link: 'https://github.com/gorebhaven7/EbayFlask'
   },
   {
     id: 3,
@@ -39,6 +43,7 @@ const projects = [
     title: 'DWT Compression',
     techUsed: 'Tech Used: Python, DWT',
     description: 'Implemented Discrete Wavelet Transform (DWT) for image compression. Focused on optimizing image storage and transmission efficiency.',
+    link: 'https://github.com/gorebhaven7/DWTCompression'
   },
   {
     id: 4,
@@ -47,6 +52,7 @@ const projects = [
     title: 'Query Language Development',
     techUsed: 'Tech Used: Python',
     description: 'Developed a unique Query Language with features like create, update, insert, delete. Incorporated advanced functions like WHERE, ORDER BY, GROUP BY, and JOIN.',
+    link: 'https://github.com/gorebhaven7/QueryLanguage'
   },
   {
     id: 5,
@@ -55,6 +61,7 @@ const projects = [
     title: 'Yelp Android App',
     techUsed: 'Tech Used: Android, Node.js, Volley library',
     description: 'Created an Android application for Yelp, with Node.js backend. Integrated features for restaurant details display and booking services.',
+    link: 'https://github.com/gorebhaven7/Yelp'
   },
   {
     id: 6,
@@ -63,6 +70,7 @@ const projects = [
     title: 'Ebay Search Using Angular',
     techUsed: 'Tech Used: Angualar, Node.js',
     description: 'Re-implemented the Ebay app using Angular for frontend and Node.js for backend. Maintained core functionalities with a focus on a responsive user interface.',
+    link: 'https://github.com/gorebhaven7/EbayAngular'
   },
   {
     id: 7,
@@ -71,6 +79,7 @@ const projects = [
     title: 'Movie Shot Detection',
     techUsed: 'Tech Used: Python, Libroda Library',
     description: 'Built a system for detecting scene shots and sub-shots in videos. Employed color comparison and audio analysis using Librosa for accurate detection.',
+    link: 'https://github.com/gorebhaven7/ShotDetection'
   },
   {
     id: 8,
@@ -79,6 +88,7 @@ const projects = [
     title: 'Game Development',
     techUsed: 'Tech Used: Unity, C#',
     description: 'Developed a game using Unity, incorporating 15 unique mechanics. Focused on engaging gameplay and interactive design elements.',
+    link: ''
   },
   {
     id: 9,
@@ -87,6 +97,25 @@ const projects = [
     title: 'Yelp Web App',
     techUsed: 'Tech Used: Angular, Node.js',
     description: 'Developed a web version of the Yelp Android app using Angular. Ensured feature parity with the mobile version, optimizing for web usability.',
+    link: 'https://github.com/gorebhaven7/YelpAngular'
+  },
+  {
+    id: 10,
+    category: 'Software',
+    image: DriverDrowsiness,
+    title: 'Driver Drowsiness Detection',
+    techUsed: 'Tech Used: OpenCv, Python',
+    description: 'Developed a real-time monitoring system using OpenCV in Python to detect driver drowsiness by analyzing eye closure and yawning frequency.',
+    link: 'https://github.com/gorebhaven7/Drowsiness-Detection'
+  },
+  {
+    id: 11,
+    category: 'Web',
+    image: CureFeed,
+    title: 'CureFeed',
+    techUsed: 'Tech Used: : React, MongoDB, Firebase, Flask',
+    description: 'A web application providing a personalized recipe catalog with easy-to-follow instructions, fostering a community of cooking enthusiasts.',
+    link: 'https://github.com/gorebhaven7/cure-feed'
   },
 ];
 const certifications = [

@@ -19,6 +19,7 @@ const ProjectCard = ({ project }) => {
         <h3>{project.title}</h3>
         <p>{project.techUsed}</p>
         <p>{project.description}</p>
+        <a href = {project.link} target='blank'><button>Github Repo</button></a>
       </div>
     </div>
   );

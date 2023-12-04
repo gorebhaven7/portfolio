@@ -12,7 +12,7 @@ const Projects = ({ projects }) => {
   return (
     <div className="projects-section">
       <div className="projects-navbar">
-        {['ALL', 'Android', 'Web', 'Software', 'IoT'].map(category => (
+        {['ALL', 'Android', 'Web', 'Software'].map(category => (
           <button 
             key={category} 
             onClick={() => setFilter(category)}
