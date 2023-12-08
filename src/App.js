@@ -16,6 +16,7 @@ import EbayFlask from './EbayFlask.png';
 import EbayAndroid from './EbayAndroid.png';
 import DriverDrowsiness from './DriverDrowsiness.jpeg';
 import CureFeed from './curefeed.png';
+import ContactMe from './components/ContactMe';
 
 const projects = [
   {
@@ -34,7 +35,8 @@ const projects = [
     title: 'Ebay Search Using Flask',
     techUsed: 'Tech Used: Flask, Express JS, Python',
     description: 'Created a Flask-based backend mimicking the functionality of the Ebay Android app. Focused on efficient API communication for item retrieval and display.',
-    link: 'https://github.com/gorebhaven7/EbayFlask'
+    link: 'https://github.com/gorebhaven7/EbayFlask',
+    Website_Link: 'https://assg3ruchira.uw.r.appspot.com/'
   },
   {
     id: 3,
@@ -70,7 +72,8 @@ const projects = [
     title: 'Ebay Search Using Angular',
     techUsed: 'Tech Used: Angualar, Node.js',
     description: 'Re-implemented the Ebay app using Angular for frontend and Node.js for backend. Maintained core functionalities with a focus on a responsive user interface.',
-    link: 'https://github.com/gorebhaven7/EbayAngular'
+    link: 'https://github.com/gorebhaven7/EbayAngular',
+    Website_Link: 'https://ruchifrontend.uc.r.appspot.com/'
   },
   {
     id: 7,
@@ -88,7 +91,8 @@ const projects = [
     title: 'Game Development',
     techUsed: 'Tech Used: Unity, C#',
     description: 'Developed a game using Unity, incorporating 15 unique mechanics. Focused on engaging gameplay and interactive design elements.',
-    link: ''
+    link: '',
+    Game_Link: 'https://play.unity.com/mg/other/enigmabuild7'
   },
   {
     id: 9,
@@ -173,6 +177,7 @@ function App() {
       <Timeline />
       <Projects projects={projects} /> 
       <Certifications certifications={certifications} />
+      {/* <ContactMe /> */}
     </div>
   );
 }
