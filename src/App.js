@@ -17,6 +17,8 @@ import EbayAndroid from './EbayAndroid.png';
 import DriverDrowsiness from './DriverDrowsiness.jpeg';
 import CureFeed from './curefeed.png';
 import ContactMe from './components/ContactMe';
+import { FaDownload } from 'react-icons/fa';
+
 
 const projects = [
   {
@@ -171,6 +173,13 @@ function App() {
         <hr className="line" />
         <h2>Bhaven Vikas Gore</h2>
         <TypingAnimation />
+        <div className="download-resume">
+        <a href="/resume.pdf" download="Bhaven_Vikas_Gore_Resume">
+          <button>
+            <FaDownload />  Resume
+          </button>
+        </a>
+      </div>
         </div>
       </div>
       <Skills /> 
