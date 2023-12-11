@@ -174,7 +174,7 @@ function App() {
         <h2>Bhaven Vikas Gore</h2>
         <TypingAnimation />
         <div className="download-resume">
-        <a href="/resume.pdf" download="Bhaven_Vikas_Gore_Resume">
+        <a href="https://drive.google.com/file/d/1EvBNlYERDyQL2b9hcXTrYSkzWzJfiq8L/view?usp=drive_link" target = "_blank">
           <button>
             <FaDownload />  Resume
           </button>
